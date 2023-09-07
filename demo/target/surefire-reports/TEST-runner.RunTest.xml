@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="runner.RunTest" time="0.058" errors="2" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.20+8-post-Debian-1deb11u1"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/coder/project/workspace/demo"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-11"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/coder/project/workspace/demo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.20+8-post-Debian-1deb11u1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.10.162+"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/coder"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="coder"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Razor |" name="Given I am on the Gillette website" time="0.013">
+    <error message="TimedPromise timed out after 5000 ms
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: TimedPromise timed out after 5000 ms
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$EqLHDQ3P.get(Unknown Source)
+	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
+	at ✽.Given I am on the Gillette website(gillette.feature:4)
+</error>
+    <system-err>Sep 05, 2023 6:48:07 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+</system-err>
+  </testcase>
+  <testcase classname="| Razor |" name="| Razor |" time="0.015">
+    <error message="TimedPromise timed out after 5000 ms
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: TimedPromise timed out after 5000 ms
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$EqLHDQ3P.get(Unknown Source)
+	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
+	at ✽.Given I am on the Gillette website(gillette.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Razor |" name="When I search for &quot;Razor&quot; using the search option" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Razor |" name="Then I should see &quot;Results For Razor&apos;&quot; at the top of the search results" time="0.015">
+    <skipped/>
+  </testcase>
+</testsuite>

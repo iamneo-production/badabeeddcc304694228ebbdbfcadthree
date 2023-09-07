@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 22.382 sec <<< FAILURE!
+Given I am on the Gillette website(| Razor |)  Time elapsed: 0.013 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: TimedPromise timed out after 5000 ms
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$EqLHDQ3P.get(Unknown Source)
+	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
+	at ✽.Given I am on the Gillette website(gillette.feature:4)
+
+| Razor |  Time elapsed: 0.015 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: TimedPromise timed out after 5000 ms
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [68ae4601-bf0d-4d3e-be5d-e887ee1f7edc, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 96.0, moz:accessibilityChecks: false, moz:buildID: 20220106144528, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2989, moz:profile: /tmp/rust_mozprofileBEklWL, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: LINUX, platformVersion: 5.10.162+, proxy: Proxy(), se:vnc: ws://10.56.6.2:4445/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.6.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68ae4601-bf0d-4d3e-be5d-e887ee1f7edc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$EqLHDQ3P.get(Unknown Source)
+	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
+	at ✽.Given I am on the Gillette website(gillette.feature:4)
+
