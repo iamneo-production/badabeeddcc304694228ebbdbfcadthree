@@ -46,28 +46,28 @@ public class GilletteTests {
         driver.get("https://www.gillette.co.in/en-in");
     }
     
-    // @When("^I hover on from the top navigation$")
-    // public void iHoverOnFromTheTopNavigation() throws MalformedURLException {
-    //     ExtentTest test = reporter.createTest("hover Products", "Executing step 1");
-    //     homePage.hoverToProducts(driver, test);
-    //     log.info("Hovered");
-    // }
+    @When("^I hover on from the top navigation$")
+    public void iHoverOnFromTheTopNavigation() throws MalformedURLException {
+        ExtentTest test = reporter.createTest("hover Products", "Executing step 1");
+        homePage.hoverToProducts(driver, test);
+        log.info("Hovered");
+    }
 
-    // @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
-    // public void iChooseUnderFromTheDropDown(String option, String dropdown) {
-    //     ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
-    //     homePage.clickBrands(driver, test);
-    //     log.info("Clicked MACH3");
-    // }
+    @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
+    public void iChooseUnderFromTheDropDown(String option, String dropdown) {
+        ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
+        homePage.clickBrands(driver, test);
+        log.info("Clicked MACH3");
+    }
 
     
-    // @Then("^I should see \"([^\"]*)\" under the products list$")
-    // public void iShouldSeeUnderTheProductsList(String expectedText) {
-    //     ExtentTest test = reporter.createTest("find Razor Turbo", "Executing step 3");
-    //     homePage.findRazorTurbo(driver, test);
-    //     log.info("Finding razor turbo");
+    @Then("^I should see \"([^\"]*)\" under the products list$")
+    public void iShouldSeeUnderTheProductsList(String expectedText) {
+        ExtentTest test = reporter.createTest("find Razor Turbo", "Executing step 3");
+        homePage.findRazorTurbo(driver, test);
+        log.info("Finding razor turbo");
         
-    // }
+    }
 
     @When("^I search for \"([^\"]*)\" using the search option$")
     public void iSearchForUsingTheSearchOption(String searchText) {

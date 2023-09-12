@@ -41,13 +41,8 @@ public class Base {
 			}
 			
 		}else if(browserName.equalsIgnoreCase("firefox")) {
-			try {
-				driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), capabilities);
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			}
 			
-			// driver = new FirefoxDriver();
+			driver = new FirefoxDriver();
 			
 		}else if(browserName.equalsIgnoreCase("edge")) {
 			
@@ -56,7 +51,6 @@ public class Base {
 		}else if(browserName.equalsIgnoreCase("safari")) {
 			driver = new SafariDriver();
 		}
-		// java -jar selenium-server-4.12.0.jar node --role node --hub http://localhost:4445/grid/register --browser browserName=firefox,maxInstances=1
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Base.IMPLICIT_WAIT_TIME));
